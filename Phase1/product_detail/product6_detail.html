@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Shopping Site</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Nerdy Record Shop</h1>
+    </header>
+    <div class="main-container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../category/category1.html">RYM-Core</a></li>
+                <li><a href="../category/category2.html">Pop</a></li>
+                <li><a href="../category/category3.html">Experimental</a></li>
+            </ul>
+        </aside>
+        <div class="toolbar-and-content">
+            <div class="toolbar">
+                <nav class="dynamic-menu">
+                    <a href="../index.html">Home</a> > <a href="../category/category2.html">Pop</a> > <a href="product6_detail.html">Let the Darkness Fall</a>
+                </nav>
+                <div class="cart-container">
+                    <button class="cart-btn">Cart</button>
+                    <div class="shopping-cart">
+                        <div class="shopping-cart-headline">Shopping Cart</div>
+                        <ul class="cart-items">
+                            <li class="cart-item">
+                                <span class="product-name">Atlas</span>
+                                <span class="product-quantity">x2</span>
+                                <span class="product-price">$20</span>
+                            </li>
+                        </ul>
+                        <div class="cart-total">
+                            <span>Total:</span>
+                            <span>$40</span> 
+                        </div>
+                        <a href="#" class="checkout-btn">Checkout</a>
+                    </div>
+                </div>
+            </div>
+            <main class="content">
+                <div class="product-detail-layout">
+                    <img src="../image/product_detail6.jpg" alt="Product 6" class="product-image">
+                    <div class="product-info">
+                        <h2>Let the Darkness Fall</h2>
+                        <p>Recital is pleased to publish the first vinyl edition of Let the Darkness Fall, 
+                            a forgotten corner from the vast discography of Suzanne Langille & Loren Connors. 
+                            Joined here by David Daniell and Andrew Burnes (of the Atlanta-based group San Agustin), 
+                            Darkness was recorded in the summer of 1998 on a Tascam Porta-5 in Loren and Suzanne's Brooklyn living 
+                            room, and issued the following year as a limited CD by Secretly Canadian. <br><br>
+
+                            The tender gloom of Let the Darkness Fall sounds like a broadcast of some private séance. 
+                            The trio of guitarists here show a beautiful restraint, hovering just underneath vocalist 
+                            Suzanne Langille's ephemeral poetry. Once they hit RECORD, the sensitivity of the players 
+                            melded this quartet into a sole-entity; finishing each other's phrases in slow motion. Suzanne's 
+                            gentle voice glows through the wispy guitar shadows with a quiet determination. One could almost 
+                            imagine her building a nest out of the guitar lines she's gathered. <br><br>
+                            
+                            This collection of musicians is a precursor to the band Haunted House, a wild sort of jam-band 
+                            playing the blues without playing structure. Recital is proud to continue the series of 
+                            Loren Connors-related editions, stretching from his art books Wildweeds & Night of Rain, 
+                            to his masterpiece solo LPs Airs & Lullaby. And Recital is equally thrilled to highlight 
+                            Suzanne Langille’s mystifying command of voice and word and the intricate guitar work of 
+                            Andrew Burnes and David Daniell. Come revisit the mist that filled that living room 25 years ago.
+                            </p>
+                        <p class="inventory">Inventory: 225</p> <!-- Example inventory number -->
+                        <span class="price">$59.99</span>
+                        <input type="number" name="quantity" id="quantity" min="1" max="225" value="1" class="quantity-input" /> <!-- Ensure 'max' matches inventory -->
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Record Shop</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>

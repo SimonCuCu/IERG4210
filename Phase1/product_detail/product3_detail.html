@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Shopping Site</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Nerdy Record Shop</h1>
+    </header>
+    <div class="main-container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../category/category1.html">RYM-Core</a></li>
+                <li><a href="../category/category2.html">Pop</a></li>
+                <li><a href="../category/category3.html">Experimental</a></li>
+            </ul>
+        </aside>
+        <div class="toolbar-and-content">
+            <div class="toolbar">
+                <nav class="dynamic-menu">
+                    <a href="../index.html">Home</a> > <a href="../category/category1.html">RYM-Core</a> > <a href="product3_detail.html">I Am Not Shinzo Abe</a>
+                </nav>
+                <div class="cart-container">
+                    <button class="cart-btn">Cart</button>
+                    <div class="shopping-cart">
+                        <div class="shopping-cart-headline">Shopping Cart</div>
+                        <ul class="cart-items">
+                            <li class="cart-item">
+                                <span class="product-name">Atlas</span>
+                                <span class="product-quantity">x2</span>
+                                <span class="product-price">$20</span>
+                            </li>
+                        </ul>
+                        <div class="cart-total">
+                            <span>Total:</span>
+                            <span>$40</span> 
+                        </div>
+                        <a href="#" class="checkout-btn">Checkout</a>
+                    </div>
+                </div>
+            </div>
+            <main class="content">
+                <div class="product-detail-layout">
+                    <img src="../image/product_detail3.jpg" alt="Product 3" class="product-image">
+                    <div class="product-info">
+                        <h2>I Am Not Shinzo Abe</h2>
+                        <p>Two years ago, Japanese record label canceled the production of Xinlisupreme`s works and 
+                            terminated the contract with Xinlisupreme because Xinlisupreme created a protest song 
+                            “I Am Not Shinzo Abe” to criticize Shinzo Abe, a prime minister of Japan. 
+                            It has now become a taboo in Japan to criticize Shinzo Abe in music and 
+                            other creative activities. In 2015, Southern All Stars, a popular band in Japan, 
+                            was made to apologize for publically ridiculing him on TV. 
+                            Also in 2016, there were fierce repercussions on the internet against 
+                            the appearance of Aki Okuda, a leader of SEALDs, a student group to protest against Shinzo Abe, 
+                            in the Fuji Rock, the biggest music festival in Japan. Even the phrase “Do not politicize music” 
+                            became a top trend on Japan’s twitter. We all have the right to freedom of expression when 
+                            criticizing Prime Minister Shinzo Abe, an extreme right-wing politician who allows discrimination, 
+                            social gaps and nuclear power plants.<br><br>
+                            
+                            With this Album, Xinlisupreme want to criticize Shinzo Abe and also change the atmosphere 
+                            of the Japanese society which does not allow music to become political. Xinlisupreme hope 
+                            is that this album will stimulate a discussion for the change. </p>
+                        <p class="inventory">Inventory: 5</p> <!-- Example inventory number -->
+                        <span class="price">$15</span>
+                        <input type="number" name="quantity" id="quantity" min="1" max="5" value="1" class="quantity-input" /> <!-- Ensure 'max' matches inventory -->
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Record Shop</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
