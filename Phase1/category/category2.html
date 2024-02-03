@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Shopping Site</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Nerdy Record Shop</h1>
+    </header>
+    <div class="main-container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="category1.html">RYM-Core</a></li>
+                <li><a href="category2.html">Pop</a></li>
+                <li><a href="category3.html">Experimental</a></li>
+            </ul>
+        </aside>
+        <div class="toolbar-and-content">
+            <div class="toolbar">
+                <nav class="dynamic-menu">
+                    <a href="../index.html">Home</a> > <a href="category2.html">Pop</a>
+                </nav>
+                <div class="cart-container">
+                    <button class="cart-btn">Cart</button>
+                    <div class="shopping-cart">
+                        <div class="shopping-cart-headline">Shopping Cart</div>
+                        <ul class="cart-items">
+                            <li class="cart-item">
+                                <span class="product-name">Atlas</span>
+                                <span class="product-quantity">x2</span>
+                                <span class="product-price">$20</span>
+                            </li>
+                            <!-- Repeat for other cart items -->
+                        </ul>
+                        <div class="cart-total">
+                            <span>Total:</span>
+                            <span>$40</span> <!-- Example total, adjust based on actual cart contents -->
+                        </div>
+                        <a href="#" class="checkout-btn">Checkout</a>
+                        <!-- Note: Actual checkout functionality requires JavaScript -->
+                    </div>
+                </div>
+            </div>
+            <main class="content">
+                <section class="product-list">
+                    <div class="product-item">
+                        <img src="../image/product4.jpg" alt="Product 4">
+                        <h2><a href="../product_detail/product4_detail.html">Me Chama De Gato Que Eu Sou Sua</a></h2>
+                        <p>by Brazilian artist Ana Frango Elétrico</p>
+                        <span class="price">$22.99</span>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="../image/product5.jpg" alt="Product 5">
+                        <h2><a href="../product_detail/product5_detail.html">in|FLUX</a></h2>
+                        <p>by UK artist Anna B Savage</p>
+                        <span class="price">$19.99</span>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="../image/product6.jpg" alt="Product 6">
+                        <h2><a href="../product_detail/product6_detail.html">Let the Darkness Fall</a></h2>
+                        <p>a forgotten corner from the vast discography of Suzanne Langille & Loren Connors</p>
+                        <span class="price">$59.99</span>
+                        <button>Add to Cart</button>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Record Shop</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
